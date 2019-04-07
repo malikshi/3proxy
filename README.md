@@ -7,7 +7,7 @@ A simple script to install 3proxy on Ubuntu/Debian
 
 Install :
 
-    wget --no-check-certificate https://raw.github.com/SnoyIatk/3proxy/master/3proxyinstall.sh
+    wget --no-check-certificate https://github.com/malikshi/3proxy/raw/master/3proxyinstall.sh
     chmod +x 3proxyinstall.sh
     ./3proxyinstall.sh
 
@@ -19,7 +19,7 @@ Sample .proxyauth
 
     johndoe:CL:johndoepassword123
 
-Change HTTP/SOCKS port, default is 9999 (HTTP) and 8088 (SOCKS)
+Change HTTP/SOCKS port, default is 8080 (HTTP) and 1080 (SOCKS)
 
     vim /etc/3proxy/3proxy.cfg
     
@@ -32,7 +32,7 @@ Or
 	
 Uninstall:
 
-	wget --no-check-certificate https://raw.github.com/SnoyIatk/3proxy/master/3proxyuninstall.sh
+	wget --no-check-certificate https://github.com/malikshi/3proxy/raw/master/3proxyuninstall.sh
 	chmod +x 3proxyuninstall.sh
 	./3proxyuninstall.sh
 
